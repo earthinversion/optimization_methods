@@ -21,7 +21,7 @@ This workspace includes three optimization methods:
 
 1. **Clone or download this repository** (if you haven't already):
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/earthinversion/optimization_methods.git
    cd optimization_methods
    ```
 
