@@ -6,9 +6,29 @@ This repository contains implementations of optimization algorithms commonly use
 
 This workspace includes three optimization methods:
 
-1. **Gradient Descent** (`gradient_descent.ipynb`) - Basic gradient descent for solving linear inverse problems
-2. **Newton's Method** (`newtons_method.ipynb`) - Second-order optimization using Hessian information
-3. **Conjugate Gradient Method** (`conjugate_gradient_method.ipynb`) - Efficient method for solving linear systems
+1. **Gradient Descent** (`gradient_descent.ipynb`)
+   - Basic gradient descent for solving linear inverse problems
+
+2. **Newton's Method** (`newtons_method.ipynb`) 
+   - Second-order optimization using Hessian information
+
+3. **Conjugate Gradient Method** (`conjugate_gradient_method.ipynb`)
+   - Efficient method for solving linear systems
+
+4. **BFGS** (Coming soon)
+   - Quasi-Newton method for optimization
+
+5. **Adaptive Methods** (Coming soon)
+   - Adam Optimizer
+   - L-BFGS
+   - Trust Region Newton
+
+6. **Stochastic Methods** (Coming soon)
+   - Stochastic Gradient Descent (SGD)
+   - Mini-batch Gradient Descent 
+   - Genetic Algorithm
+   - Simulated Annealing
+
 
 ## 🛠️ Environment Setup
 
