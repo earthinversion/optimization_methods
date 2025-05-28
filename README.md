@@ -10,6 +10,31 @@ This workspace includes three optimization methods:
 2. **Newton's Method** (`newtons_method.ipynb`) - Second-order optimization using Hessian information
 3. **Conjugate Gradient Method** (`conjugate_gradient_method.ipynb`) - Efficient method for solving linear systems
 
+### Future Implementations
+
+**Quasi-Newton Methods:**
+*Approximate second-order methods that build Hessian estimates iteratively, offering faster convergence than gradient descent without the computational cost of computing full Hessians.*
+- BFGS (Broyden-Fletcher-Goldfarb-Shanno)
+- L-BFGS (Limited-memory BFGS)
+
+**Stochastic Optimization:**
+*Methods that use randomness or subsets of data to handle large-scale problems, noisy objectives, or explore solution spaces probabilistically.*
+- Stochastic Gradient Descent (SGD)
+- Mini-batch Gradient Descent
+- Markov Chain Monte Carlo (MCMC)
+- Metropolis-Hastings Algorithm
+
+**Metaheuristic Methods:**
+*Nature-inspired global optimization algorithms that can escape local minima and handle non-convex, discontinuous, or black-box objective functions.*
+- Genetic Algorithm
+- Simulated Annealing
+- Particle Swarm Optimization
+
+**Advanced Methods:**
+*Modern optimization techniques combining adaptive learning rates, momentum, and specialized approaches for specific problem types.*
+- Adam Optimizer
+- Trust Region Methods
+
 ## Environment Setup
 
 ### Prerequisites
@@ -106,7 +131,6 @@ Efficient Krylov subspace method for solving large linear systems.
 
 **Learning Objectives:**
 - [ ] Understand conjugate directions and their properties
-- [ ] Learn about Krylov subspace methods
 - [ ] Explore efficient algorithms for large-scale problems
 - [ ] Apply to systems where direct inversion is impractical
 
