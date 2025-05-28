@@ -84,52 +84,31 @@ This workspace includes three optimization methods:
 ## Notebook Descriptions
 
 ### 1. Gradient Descent (`gradient_descent.ipynb`)
-
-This notebook demonstrates the basic gradient descent algorithm for solving linear inverse problems of the form `min ||Gm - d||²`.
-
-**Key Features:**
-- Implementation of basic gradient descent with configurable learning rate
-- Example using synthetic travel time tomography data
-- Convergence analysis and visualization
-- Model parameter evolution tracking
+First-order optimization for linear inverse problems using steepest descent.
 
 **Learning Objectives:**
-- Understand the gradient descent update rule
-- Learn about learning rate selection
-- Visualize convergence behavior
-- Apply to geophysical inverse problems
+- [ ] Understand the gradient descent update rule
+- [ ] Learn about learning rate selection
+- [ ] Visualize convergence behavior
+- [ ] Apply to geophysical inverse problems
 
 ### 2. Newton's Method (`newtons_method.ipynb`)
-
-This notebook implements Newton's method, which uses second-order derivative information (Hessian) for faster convergence.
-
-**Key Features:**
-- Full Newton's method implementation
-- Comparison with gradient descent
-- Quadratic convergence demonstration
-- Handling of the Hessian matrix
+Second-order optimization using Hessian information for quadratic convergence.
 
 **Learning Objectives:**
-- Understand second-order optimization methods
-- Learn about the trade-offs between computation and convergence speed
-- Explore the role of the Hessian matrix
-- Compare convergence rates with first-order methods
+- [ ] Understand second-order optimization methods
+- [ ] Learn about the trade-offs between computation and convergence speed
+- [ ] Explore the role of the Hessian matrix
+- [ ] Compare convergence rates with first-order methods
 
 ### 3. Conjugate Gradient Method (`conjugate_gradient_method.ipynb`)
-
-This notebook presents the conjugate gradient method, an efficient algorithm for solving large linear systems.
-
-**Key Features:**
-- Conjugate gradient algorithm implementation
-- Efficient solution of linear systems
-- Comparison with direct methods
-- Memory-efficient optimization
+Efficient Krylov subspace method for solving large linear systems.
 
 **Learning Objectives:**
-- Understand conjugate directions and their properties
-- Learn about Krylov subspace methods
-- Explore efficient algorithms for large-scale problems
-- Apply to systems where direct inversion is impractical
+- [ ] Understand conjugate directions and their properties
+- [ ] Learn about Krylov subspace methods
+- [ ] Explore efficient algorithms for large-scale problems
+- [ ] Apply to systems where direct inversion is impractical
 
 ## Dependencies
 
